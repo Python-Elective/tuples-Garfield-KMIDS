@@ -1,11 +1,11 @@
-"""
-It has a tuple as input.
-
-It returns a new tuple as output,such as
-every second element of the input tuple is
-skipped, starting with the first one.
-"""
 def skip_tuples(tuple):
+    """
+    It has a tuple as input.
+
+    It returns a new tuple as output,such as
+    every second element of the input tuple is
+    skipped, starting with the first one.
+    """
     new_tuple = ()
     for i in range(len(tuple)):
         if i % 2 == 0:
