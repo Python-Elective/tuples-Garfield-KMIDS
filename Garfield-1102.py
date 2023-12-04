@@ -1,10 +1,6 @@
 def skip_tuples(tuple):
     """Return new tuple that only have the elements with even index of the original tuple"""
-    new_tuple = ()
-    for i in range(len(tuple)):
-        if i % 2 == 0:
-            new_tuple += (tuple[i],)
-    return new_tuple
+    return tuple[::2]
 
 def main():
     print("Test skip_tuples -----------")
